@@ -14,10 +14,6 @@
 		89290C321ABB090D003285E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89290C311ABB090D003285E1 /* Images.xcassets */; };
 		89290C351ABB090D003285E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89290C331ABB090D003285E1 /* LaunchScreen.xib */; };
 		89290C411ABB090D003285E1 /* tn_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89290C401ABB090D003285E1 /* tn_testTests.m */; };
-		89290C541ABB0B8B003285E1 /* libadgear-ios-sdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89290C4E1ABB0B8B003285E1 /* libadgear-ios-sdk.bundle */; };
-		89290C551ABB0B8B003285E1 /* libTNAdPlatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89290C501ABB0B8B003285E1 /* libTNAdPlatform.a */; };
-		89290C561ABB0B8B003285E1 /* Release_Notes_1_8.doc in Resources */ = {isa = PBXBuildFile; fileRef = 89290C511ABB0B8B003285E1 /* Release_Notes_1_8.doc */; };
-		89290C571ABB0B8B003285E1 /* TN_Demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89290C521ABB0B8B003285E1 /* TN_Demo.plist */; };
 		89290C591ABB0BF1003285E1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89290C581ABB0BF1003285E1 /* MediaPlayer.framework */; };
 		89290C5B1ABB0C0B003285E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89290C5A1ABB0C0B003285E1 /* Security.framework */; };
 		89290C5D1ABB0C11003285E1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89290C5C1ABB0C11003285E1 /* MessageUI.framework */; };
@@ -30,6 +26,10 @@
 		89290C6B1ABB0C8C003285E1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89290C6A1ABB0C8C003285E1 /* libz.dylib */; };
 		89290C6D1ABB0C94003285E1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89290C6C1ABB0C94003285E1 /* CoreMotion.framework */; };
 		89290C6F1ABB0CB2003285E1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89290C6E1ABB0CB2003285E1 /* AdSupport.framework */; };
+		89290C7A1ABB0E29003285E1 /* libadgear-ios-sdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89290C741ABB0E29003285E1 /* libadgear-ios-sdk.bundle */; };
+		89290C7B1ABB0E29003285E1 /* libTNAdPlatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89290C761ABB0E29003285E1 /* libTNAdPlatform.a */; };
+		89290C7C1ABB0E29003285E1 /* Release_Notes_1_8.doc in Resources */ = {isa = PBXBuildFile; fileRef = 89290C771ABB0E29003285E1 /* Release_Notes_1_8.doc */; };
+		89290C7D1ABB0E29003285E1 /* TN_Demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89290C781ABB0E29003285E1 /* TN_Demo.plist */; };
 		E73D9A1AF06E35F9E5ACBE67 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1ED88560CEE9BD659E2137 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,14 +58,6 @@
 		89290C3A1ABB090D003285E1 /* tn_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tn_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89290C3F1ABB090D003285E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89290C401ABB090D003285E1 /* tn_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tn_testTests.m; sourceTree = "<group>"; };
-		89290C4B1ABB0B8B003285E1 /* AdGear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGear.h; sourceTree = "<group>"; };
-		89290C4C1ABB0B8B003285E1 /* AGCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCacheManager.h; sourceTree = "<group>"; };
-		89290C4D1ABB0B8B003285E1 /* AGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLogger.h; sourceTree = "<group>"; };
-		89290C4E1ABB0B8B003285E1 /* libadgear-ios-sdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "libadgear-ios-sdk.bundle"; sourceTree = "<group>"; };
-		89290C501ABB0B8B003285E1 /* libTNAdPlatform.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTNAdPlatform.a; sourceTree = "<group>"; };
-		89290C511ABB0B8B003285E1 /* Release_Notes_1_8.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Release_Notes_1_8.doc; sourceTree = "<group>"; };
-		89290C521ABB0B8B003285E1 /* TN_Demo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TN_Demo.plist; sourceTree = "<group>"; };
-		89290C531ABB0B8B003285E1 /* TNAdPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNAdPlatform.h; sourceTree = "<group>"; };
 		89290C581ABB0BF1003285E1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		89290C5A1ABB0C0B003285E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		89290C5C1ABB0C11003285E1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -78,6 +70,14 @@
 		89290C6A1ABB0C8C003285E1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		89290C6C1ABB0C94003285E1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		89290C6E1ABB0CB2003285E1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		89290C711ABB0E29003285E1 /* AdGear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGear.h; sourceTree = "<group>"; };
+		89290C721ABB0E29003285E1 /* AGCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCacheManager.h; sourceTree = "<group>"; };
+		89290C731ABB0E29003285E1 /* AGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLogger.h; sourceTree = "<group>"; };
+		89290C741ABB0E29003285E1 /* libadgear-ios-sdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "libadgear-ios-sdk.bundle"; sourceTree = "<group>"; };
+		89290C761ABB0E29003285E1 /* libTNAdPlatform.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTNAdPlatform.a; sourceTree = "<group>"; };
+		89290C771ABB0E29003285E1 /* Release_Notes_1_8.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Release_Notes_1_8.doc; sourceTree = "<group>"; };
+		89290C781ABB0E29003285E1 /* TN_Demo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TN_Demo.plist; sourceTree = "<group>"; };
+		89290C791ABB0E29003285E1 /* TNAdPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNAdPlatform.h; sourceTree = "<group>"; };
 		AC1ED88560CEE9BD659E2137 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85625FFD550A15DE9E9E962 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +90,7 @@
 				89290C6F1ABB0CB2003285E1 /* AdSupport.framework in Frameworks */,
 				89290C6D1ABB0C94003285E1 /* CoreMotion.framework in Frameworks */,
 				89290C6B1ABB0C8C003285E1 /* libz.dylib in Frameworks */,
+				89290C7B1ABB0E29003285E1 /* libTNAdPlatform.a in Frameworks */,
 				89290C691ABB0C76003285E1 /* libsqlite3.dylib in Frameworks */,
 				89290C671ABB0C6E003285E1 /* MobileCoreServices.framework in Frameworks */,
 				89290C651ABB0C56003285E1 /* SystemConfiguration.framework in Frameworks */,
@@ -100,7 +101,6 @@
 				89290C5B1ABB0C0B003285E1 /* Security.framework in Frameworks */,
 				89290C591ABB0BF1003285E1 /* MediaPlayer.framework in Frameworks */,
 				E73D9A1AF06E35F9E5ACBE67 /* libPods.a in Frameworks */,
-				89290C551ABB0B8B003285E1 /* libTNAdPlatform.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +139,7 @@
 			children = (
 				89290C231ABB090D003285E1 /* tn_test */,
 				89290C3D1ABB090D003285E1 /* tn_testTests */,
-				89290C4A1ABB0B8B003285E1 /* TN-iOS-SDK 3 */,
+				89290C701ABB0E29003285E1 /* TN-iOS-SDK 3 */,
 				89290C221ABB090D003285E1 /* Products */,
 				A13EDD93AD3611322E37B286 /* Pods */,
 				70385623F32137F614BE94AB /* Frameworks */,
@@ -196,26 +196,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		89290C4A1ABB0B8B003285E1 /* TN-iOS-SDK 3 */ = {
+		89290C701ABB0E29003285E1 /* TN-iOS-SDK 3 */ = {
 			isa = PBXGroup;
 			children = (
-				89290C4B1ABB0B8B003285E1 /* AdGear.h */,
-				89290C4C1ABB0B8B003285E1 /* AGCacheManager.h */,
-				89290C4D1ABB0B8B003285E1 /* AGLogger.h */,
-				89290C4E1ABB0B8B003285E1 /* libadgear-ios-sdk.bundle */,
-				89290C4F1ABB0B8B003285E1 /* Release */,
-				89290C511ABB0B8B003285E1 /* Release_Notes_1_8.doc */,
-				89290C521ABB0B8B003285E1 /* TN_Demo.plist */,
-				89290C531ABB0B8B003285E1 /* TNAdPlatform.h */,
+				89290C711ABB0E29003285E1 /* AdGear.h */,
+				89290C721ABB0E29003285E1 /* AGCacheManager.h */,
+				89290C731ABB0E29003285E1 /* AGLogger.h */,
+				89290C741ABB0E29003285E1 /* libadgear-ios-sdk.bundle */,
+				89290C751ABB0E29003285E1 /* Release */,
+				89290C771ABB0E29003285E1 /* Release_Notes_1_8.doc */,
+				89290C781ABB0E29003285E1 /* TN_Demo.plist */,
+				89290C791ABB0E29003285E1 /* TNAdPlatform.h */,
 			);
 			name = "TN-iOS-SDK 3";
 			path = "../TN-iOS-SDK 3";
 			sourceTree = "<group>";
 		};
-		89290C4F1ABB0B8B003285E1 /* Release */ = {
+		89290C751ABB0E29003285E1 /* Release */ = {
 			isa = PBXGroup;
 			children = (
-				89290C501ABB0B8B003285E1 /* libTNAdPlatform.a */,
+				89290C761ABB0E29003285E1 /* libTNAdPlatform.a */,
 			);
 			path = Release;
 			sourceTree = "<group>";
@@ -313,10 +313,10 @@
 			files = (
 				89290C301ABB090D003285E1 /* Main.storyboard in Resources */,
 				89290C351ABB090D003285E1 /* LaunchScreen.xib in Resources */,
-				89290C541ABB0B8B003285E1 /* libadgear-ios-sdk.bundle in Resources */,
-				89290C561ABB0B8B003285E1 /* Release_Notes_1_8.doc in Resources */,
+				89290C7A1ABB0E29003285E1 /* libadgear-ios-sdk.bundle in Resources */,
+				89290C7C1ABB0E29003285E1 /* Release_Notes_1_8.doc in Resources */,
 				89290C321ABB090D003285E1 /* Images.xcassets in Resources */,
-				89290C571ABB0B8B003285E1 /* TN_Demo.plist in Resources */,
+				89290C7D1ABB0E29003285E1 /* TN_Demo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +500,8 @@
 					"$(inherited)",
 					"/Users/scottfisher/Workspace/fishstix/iphone_tn_test/TN-iOS-SDK",
 					3/Release,
+					"/Users/scottfisher/Workspace/fishstix/iphone_tn_test/TN-iOS-SDK",
+					3/Release,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s";
@@ -515,6 +517,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"/Users/scottfisher/Workspace/fishstix/iphone_tn_test/TN-iOS-SDK",
+					3/Release,
 					"/Users/scottfisher/Workspace/fishstix/iphone_tn_test/TN-iOS-SDK",
 					3/Release,
 				);
