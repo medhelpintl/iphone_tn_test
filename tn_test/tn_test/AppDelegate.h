@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MedHelp.h"
+#import "AdGear.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
