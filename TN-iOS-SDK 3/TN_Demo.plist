@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AG_MOBILE_APP_CHIP_KEY</key>
+	<string>cb3adac02de10131d8670024e87a30c2</string>
+	<key>AG_MOBILE_APP_ID</key>
+	<string>4451</string>
+	<key>USE_HTTPS</key>
+	<false/>
+	<key>TN - X-Wide Banner</key>
+	<string>10274938</string>
+	<key>TN - XX-Wide Banner</key>
+	<string>10274939</string>
+	<key>TN - X-Medium Rectangle</key>
+	<string>10274942</string>
+	<key>TN - XX-Medium Rectangle</key>
+	<string>10274940</string>
+	<key>TN - Unrestricted</key>
+	<string>10274941</string>
+	<key>TN - X-Leaderboard</key>
+	<string>10274944</string>
+	<key>TN - XX-Leaderboard</key>
+	<string>10274943</string>
+</dict>
+</plist>
